@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBB5F421488BAE00043FB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F411488BAE00043FB58 /* UIKit.framework */; };
+		ECBB5F441488BAE00043FB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F431488BAE00043FB58 /* Foundation.framework */; };
+		ECBB5F461488BAE00043FB58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F451488BAE00043FB58 /* CoreGraphics.framework */; };
+		ECBB5F4C1488BAE00043FB58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECBB5F4A1488BAE00043FB58 /* InfoPlist.strings */; };
+		ECBB5F4E1488BAE00043FB58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBB5F4D1488BAE00043FB58 /* main.m */; };
+		ECBB5F521488BAE00043FB58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBB5F511488BAE00043FB58 /* AppDelegate.m */; };
+		ECBB5F5A1488BAE00043FB58 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F591488BAE00043FB58 /* SenTestingKit.framework */; };
+		ECBB5F5B1488BAE00043FB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F411488BAE00043FB58 /* UIKit.framework */; };
+		ECBB5F5C1488BAE00043FB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB5F431488BAE00043FB58 /* Foundation.framework */; };
+		ECBB5F641488BAE00043FB58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECBB5F621488BAE00043FB58 /* InfoPlist.strings */; };
+		ECBB5F671488BAE00043FB58 /* PiaoLaLaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBB5F661488BAE00043FB58 /* PiaoLaLaAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBB5F5D1488BAE00043FB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBB5F341488BADF0043FB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBB5F3C1488BADF0043FB58;
+			remoteInfo = PiaoLaLaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBB5F3D1488BADF0043FB58 /* PiaoLaLaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiaoLaLaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBB5F411488BAE00043FB58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECBB5F431488BAE00043FB58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECBB5F451488BAE00043FB58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECBB5F491488BAE00043FB58 /* PiaoLaLaApp-Info.plist */ = {isa = PBXFileReference; path = "PiaoLaLaApp-Info.plist"; sourceTree = "<group>"; };
+		ECBB5F4B1488BAE00043FB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECBB5F4D1488BAE00043FB58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBB5F4F1488BAE00043FB58 /* PiaoLaLaApp-Prefix.pch */ = {isa = PBXFileReference; path = "PiaoLaLaApp-Prefix.pch"; sourceTree = "<group>"; };
+		ECBB5F501488BAE00043FB58 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBB5F511488BAE00043FB58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBB5F581488BAE00043FB58 /* PiaoLaLaAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiaoLaLaAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBB5F591488BAE00043FB58 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECBB5F611488BAE00043FB58 /* PiaoLaLaAppTests-Info.plist */ = {isa = PBXFileReference; path = "PiaoLaLaAppTests-Info.plist"; sourceTree = "<group>"; };
+		ECBB5F631488BAE00043FB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECBB5F651488BAE00043FB58 /* PiaoLaLaAppTests.h */ = {isa = PBXFileReference; path = PiaoLaLaAppTests.h; sourceTree = "<group>"; };
+		ECBB5F661488BAE00043FB58 /* PiaoLaLaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiaoLaLaAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBB5F3A1488BADF0043FB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F421488BAE00043FB58 /* UIKit.framework in Frameworks */,
+				ECBB5F441488BAE00043FB58 /* Foundation.framework in Frameworks */,
+				ECBB5F461488BAE00043FB58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB5F541488BAE00043FB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F5A1488BAE00043FB58 /* SenTestingKit.framework in Frameworks */,
+				ECBB5F5B1488BAE00043FB58 /* UIKit.framework in Frameworks */,
+				ECBB5F5C1488BAE00043FB58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBB5F321488BADF0043FB58 = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F471488BAE00043FB58 /* PiaoLaLaApp */,
+				ECBB5F5F1488BAE00043FB58 /* PiaoLaLaAppTests */,
+				ECBB5F401488BAE00043FB58 /* Frameworks */,
+				ECBB5F3E1488BADF0043FB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBB5F3E1488BADF0043FB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F3D1488BADF0043FB58 /* PiaoLaLaApp.app */,
+				ECBB5F581488BAE00043FB58 /* PiaoLaLaAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBB5F401488BAE00043FB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F411488BAE00043FB58 /* UIKit.framework */,
+				ECBB5F431488BAE00043FB58 /* Foundation.framework */,
+				ECBB5F451488BAE00043FB58 /* CoreGraphics.framework */,
+				ECBB5F591488BAE00043FB58 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECBB5F471488BAE00043FB58 /* PiaoLaLaApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F501488BAE00043FB58 /* AppDelegate.h */,
+				ECBB5F511488BAE00043FB58 /* AppDelegate.m */,
+				ECBB5F481488BAE00043FB58 /* Supporting Files */,
+			);
+			path = PiaoLaLaApp;
+			sourceTree = "<group>";
+		};
+		ECBB5F481488BAE00043FB58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F491488BAE00043FB58 /* PiaoLaLaApp-Info.plist */,
+				ECBB5F4A1488BAE00043FB58 /* InfoPlist.strings */,
+				ECBB5F4D1488BAE00043FB58 /* main.m */,
+				ECBB5F4F1488BAE00043FB58 /* PiaoLaLaApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECBB5F5F1488BAE00043FB58 /* PiaoLaLaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F651488BAE00043FB58 /* PiaoLaLaAppTests.h */,
+				ECBB5F661488BAE00043FB58 /* PiaoLaLaAppTests.m */,
+				ECBB5F601488BAE00043FB58 /* Supporting Files */,
+			);
+			path = PiaoLaLaAppTests;
+			sourceTree = "<group>";
+		};
+		ECBB5F601488BAE00043FB58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB5F611488BAE00043FB58 /* PiaoLaLaAppTests-Info.plist */,
+				ECBB5F621488BAE00043FB58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBB5F3C1488BADF0043FB58 /* PiaoLaLaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBB5F6A1488BAE00043FB58 /* Build configuration list for PBXNativeTarget "PiaoLaLaApp" */;
+			buildPhases = (
+				ECBB5F391488BADF0043FB58 /* Sources */,
+				ECBB5F3A1488BADF0043FB58 /* Frameworks */,
+				ECBB5F3B1488BADF0043FB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiaoLaLaApp;
+			productName = PiaoLaLaApp;
+			productReference = ECBB5F3D1488BADF0043FB58 /* PiaoLaLaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBB5F571488BAE00043FB58 /* PiaoLaLaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBB5F6D1488BAE00043FB58 /* Build configuration list for PBXNativeTarget "PiaoLaLaAppTests" */;
+			buildPhases = (
+				ECBB5F531488BAE00043FB58 /* Sources */,
+				ECBB5F541488BAE00043FB58 /* Frameworks */,
+				ECBB5F551488BAE00043FB58 /* Resources */,
+				ECBB5F561488BAE00043FB58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBB5F5E1488BAE00043FB58 /* PBXTargetDependency */,
+			);
+			name = PiaoLaLaAppTests;
+			productName = PiaoLaLaAppTests;
+			productReference = ECBB5F581488BAE00043FB58 /* PiaoLaLaAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBB5F341488BADF0043FB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ECBB5F371488BADF0043FB58 /* Build configuration list for PBXProject "PiaoLaLaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECBB5F321488BADF0043FB58;
+			productRefGroup = ECBB5F3E1488BADF0043FB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBB5F3C1488BADF0043FB58 /* PiaoLaLaApp */,
+				ECBB5F571488BAE00043FB58 /* PiaoLaLaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBB5F3B1488BADF0043FB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F4C1488BAE00043FB58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB5F551488BAE00043FB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F641488BAE00043FB58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECBB5F561488BAE00043FB58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBB5F391488BADF0043FB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F4E1488BAE00043FB58 /* main.m in Sources */,
+				ECBB5F521488BAE00043FB58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB5F531488BAE00043FB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB5F671488BAE00043FB58 /* PiaoLaLaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBB5F5E1488BAE00043FB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBB5F3C1488BADF0043FB58 /* PiaoLaLaApp */;
+			targetProxy = ECBB5F5D1488BAE00043FB58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBB5F4A1488BAE00043FB58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBB5F4B1488BAE00043FB58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECBB5F621488BAE00043FB58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBB5F631488BAE00043FB58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBB5F681488BAE00043FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECBB5F691488BAE00043FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBB5F6B1488BAE00043FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiaoLaLaApp/PiaoLaLaApp-Prefix.pch";
+				INFOPLIST_FILE = "PiaoLaLaApp/PiaoLaLaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECBB5F6C1488BAE00043FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiaoLaLaApp/PiaoLaLaApp-Prefix.pch";
+				INFOPLIST_FILE = "PiaoLaLaApp/PiaoLaLaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECBB5F6E1488BAE00043FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PiaoLaLaApp.app/PiaoLaLaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiaoLaLaApp/PiaoLaLaApp-Prefix.pch";
+				INFOPLIST_FILE = "PiaoLaLaAppTests/PiaoLaLaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECBB5F6F1488BAE00043FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PiaoLaLaApp.app/PiaoLaLaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiaoLaLaApp/PiaoLaLaApp-Prefix.pch";
+				INFOPLIST_FILE = "PiaoLaLaAppTests/PiaoLaLaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBB5F371488BADF0043FB58 /* Build configuration list for PBXProject "PiaoLaLaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBB5F681488BAE00043FB58 /* Debug */,
+				ECBB5F691488BAE00043FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBB5F6A1488BAE00043FB58 /* Build configuration list for PBXNativeTarget "PiaoLaLaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBB5F6B1488BAE00043FB58 /* Debug */,
+				ECBB5F6C1488BAE00043FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECBB5F6D1488BAE00043FB58 /* Build configuration list for PBXNativeTarget "PiaoLaLaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBB5F6E1488BAE00043FB58 /* Debug */,
+				ECBB5F6F1488BAE00043FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBB5F341488BADF0043FB58 /* Project object */;
+}
