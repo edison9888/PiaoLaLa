@@ -1,0 +1,13 @@
+//
+//  ReviewListModel.h
+//  piaoLaLa
+//
+//  Created by 高飞 on 11-12-1.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
+//
+
+#import "BaseRequestModel.h"
+
+@interface ReviewListModel : BaseRequestModel
+
+@end
